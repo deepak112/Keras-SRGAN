@@ -8,22 +8,15 @@
 
 # Modules
 from keras.layers import Dense
-from keras.layers import Reshape
 from keras.layers.core import Activation
 from keras.layers.normalization import BatchNormalization
 from keras.layers.convolutional import UpSampling2D
-from keras.layers.core import Flatten, Dropout
-from keras.layers import Input, merge, UpSampling2D
-from keras.layers.pooling import MaxPooling2D
+from keras.layers.core import Flatten
+from keras.layers import Input
 from keras.layers.convolutional import Conv2D, Conv2DTranspose
 from keras.models import Model
-from keras.optimizers import SGD, Adam, RMSprop
 from keras.layers.advanced_activations import LeakyReLU, PReLU
-import matplotlib.pyplot as plt
-from keras.models import Sequential
-from keras.initializers import RandomNormal
-import keras
-from keras.layers import Lambda, add
+from keras.layers import add
 
 
 # Residual block
