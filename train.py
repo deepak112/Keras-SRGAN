@@ -12,7 +12,6 @@ from Utils_model import VGG_LOSS
 
 from keras.models import Model
 from keras.layers import Input
-from skimage import data, io, filters
 from tqdm import tqdm
 import numpy as np
 import argparse
